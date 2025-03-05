@@ -29,7 +29,7 @@ def get_cv(X, y):
 def _read_data(path, f_name):
     data = pd.read_csv(os.path.join(path, 'data', f_name))
     y_array = data[_target_column_name]
-    y_array = np.where(y_array == 2, 1, 0)  # Positive = 1, Unlabeled = 0
+    y_array = np.where(y_array == -1, 0, y_array)  # Positive = 1, Unlabeled = 0, Negative = 0
     X_df = data.drop([_target_column_name] + _ignore_column_names, axis=1)
     return X_df, y_array
 
