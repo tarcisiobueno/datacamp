@@ -3,3 +3,4 @@ numpy
 youtube-comment-downloader
 matplotlib
 seaborn
+pulearn
