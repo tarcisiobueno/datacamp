@@ -1,5 +1,6 @@
 pandas
 numpy
+scikit-learn
 youtube-comment-downloader
 matplotlib
 seaborn
