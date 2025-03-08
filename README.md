@@ -1,6 +1,11 @@
 # Ramp Datacamp Challenge: Learning from Positive and Unlabeled Data in NLP
 
-**Authors:** Cristian Alejandro CHÁVEZ BECERRA, Giovanni BENEDETTI DA ROSA, Lucas PALMIRO DE FREITAS, Tarcisio DA SILVA BUENO, Yann Fabio NTSAMA TABETSING
+**Authors:** Team 12
+- Cristian Alejandro CHÁVEZ BECERRA
+- Giovanni BENEDETTI DA ROSA
+- Lucas PALMIRO DE FREITAS
+- Tarcisio DA SILVA BUENO
+- Yann Fabio NTSAMA TABETSING
 
 ## Introduction
 
