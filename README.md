@@ -50,7 +50,7 @@ Get started with the [dedicated notebook](challenge/sentiment_prediction_startin
 The submissions need to be located in the `challenge/submissions` folder. For instance
 for `my_submission`, it should be located in `challenge/submissions/my_submission`.
 
-To run a specific submission, you can use the `ramp-test` command line:
+To run a specific submission, you can use the `ramp-test` command line inside the `challenge` folder:
 
 ```bash
 ramp-test --submission my_submission
