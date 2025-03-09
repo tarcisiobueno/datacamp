@@ -17,14 +17,14 @@ The dataset used in this challenge is constructed by aggregating and processing 
 - **Large Language Model (LLM) Labeling**: From the collected data, 20% of the samples are artificially labeled using Llama 3.2 (2 GB), while the remaining 80% remain unlabeled.
 - **Existing Sentiment Analysis Dataset**: To increase dataset diversity, we incorporate data from the [TweetEval sentiment dataset](https://github.com/cardiffnlp/tweeteval/tree/main/datasets/sentiment). The original negative and neutral labels are reclassified as unlabeled to align with the PU learning framework.
 
-**Train Dataset:** Contains unlabbelled data and few positive instances.
+**Train Dataset:** Contains mostly unlabbelled data, positive instances, and a few negative samples.
 
-**Test Dataset (Evaluation):** Contains both positive and negative labels for evaluation. The model must classify negative samples correctly despite training only on positive, unlabeled, and artificially labeled data.
+**Test Dataset (Evaluation):** Contains both positive and negative labels for evaluation. 
 
 **Evaluation Metric:** F1-score
 
 ### What is the task this challenge aims to solve?
-Participants must develop machine learning models capable of distinguishing between positive and negative comments using only positive and unlabeled data. Since explicit negative labels are not provided during training, the challenge encourages competitors to leverage innovative artificial labeling strategies, semi-supervised learning, and PU learning techniques to build robust classifiers.
+Participants must develop machine learning models capable of distinguishing between positive and negative comments using positive, unlabeled data, and very feel quality negative samples. The challenge encourages competitors to leverage innovative artificial labeling strategies, semi-supervised learning, and PU learning techniques to build robust classifiers.
 
 ### Why does it matter?
 Traditional supervised learning methods rely on well-annotated datasets, which are often expensive and time-consuming to create. However, in many real-world scenarios—such as content moderation, medical diagnosis, and financial fraud detection—negative examples are either rare or difficult to label. This challenge reflects these real-world constraints and encourages the development of models that can generalize effectively with minimal supervision. 
