@@ -17,7 +17,7 @@ The dataset used in this challenge is constructed by aggregating and processing 
 - **Large Language Model (LLM) Labeling**: From the collected data, 20% of the samples are artificially labeled using Llama 3.2 (2 GB), while the remaining 80% remain unlabeled.
 - **Existing Sentiment Analysis Dataset**: To increase dataset diversity, we incorporate data from the [TweetEval sentiment dataset](https://github.com/cardiffnlp/tweeteval/tree/main/datasets/sentiment). The original negative and neutral labels are reclassified as unlabeled to align with the PU learning framework.
 
-**Train Dataset:** Contains mostly unlabbelled data, positive instances, and a few negative samples.
+**Train Dataset:** Contains mostly unlabeled data, labeled positive instances, and a few labeled negative samples.
 
 **Test Dataset (Evaluation):** Contains both positive and negative labels for evaluation. 
 
