@@ -9,7 +9,7 @@
 
 ## Introduction
 
-This challenge focuses on tackling a critical problem in machine learning: training classifiers with limited labeled data. In real-world scenarios, obtaining high-quality negative labels is often challenging, making Positive-Unlabeled (PU) learning a crucial technique for various applications, including sentiment analysis, medical diagnosis, and fraud detection.
+In real-world scenarios, obtaining high-quality negative labels is often challenging, making Positive-Unlabeled (PU) learning a crucial technique for various applications, including sentiment analysis, medical diagnosis, and fraud detection.
 
 ### Where does the data come from?
 The dataset used in this challenge is constructed by aggregating and processing text data from multiple sources:
@@ -24,7 +24,7 @@ The dataset used in this challenge is constructed by aggregating and processing 
 **Evaluation Metric:** F1-score
 
 ### What is the task this challenge aims to solve?
-Participants must develop machine learning models capable of distinguishing between positive and negative comments using positive, unlabeled data, and very feel quality negative samples. The challenge encourages competitors to leverage innovative artificial labeling strategies, semi-supervised learning, and PU learning techniques to build robust classifiers.
+Participants must develop machine learning models capable of distinguishing between positive and negative comments using positive, unlabeled data, along with very few high-quality negative samples. The challenge encourages competitors to leverage innovative artificial labeling strategies, semi-supervised learning, and PU learning techniques to build robust classifiers.
 
 ### Why does it matter?
 Traditional supervised learning methods rely on well-annotated datasets, which are often expensive and time-consuming to create. However, in many real-world scenarios—such as content moderation, medical diagnosis, and financial fraud detection—negative examples are either rare or difficult to label. This challenge reflects these real-world constraints and encourages the development of models that can generalize effectively with minimal supervision. 
